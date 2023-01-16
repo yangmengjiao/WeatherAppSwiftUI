@@ -16,6 +16,8 @@
 		645E40AC29735C9A007BBA5E /* WeatherAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40AB29735C9A007BBA5E /* WeatherAppSwiftUIUITestsLaunchTests.swift */; };
 		645E40B929746B58007BBA5E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40B829746B58007BBA5E /* HeaderView.swift */; };
 		645E40BB29746D29007BBA5E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40BA29746D29007BBA5E /* Models.swift */; };
+		645E40BE2975B72D007BBA5E /* HourlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40BD2975B72D007BBA5E /* HourlyView.swift */; };
+		645E40C02975C76F007BBA5E /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E40BF2975C76F007BBA5E /* DailyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		645E40AB29735C9A007BBA5E /* WeatherAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		645E40B829746B58007BBA5E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		645E40BA29746D29007BBA5E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		645E40BD2975B72D007BBA5E /* HourlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyView.swift; sourceTree = "<group>"; };
+		645E40BF2975C76F007BBA5E /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				645E409029735C99007BBA5E /* ContentView.swift */,
+				645E40BF2975C76F007BBA5E /* DailyView.swift */,
+				645E40BD2975B72D007BBA5E /* HourlyView.swift */,
 				645E40B829746B58007BBA5E /* HeaderView.swift */,
 			);
 			path = Views;
@@ -271,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				645E40C02975C76F007BBA5E /* DailyView.swift in Sources */,
+				645E40BE2975B72D007BBA5E /* HourlyView.swift in Sources */,
 				645E409129735C99007BBA5E /* ContentView.swift in Sources */,
 				645E40B929746B58007BBA5E /* HeaderView.swift in Sources */,
 				645E408F29735C99007BBA5E /* WeatherAppSwiftUIApp.swift in Sources */,
